@@ -1,0 +1,61 @@
+body {
+    background-image: url('bg2.png'); /* replace with your own image */
+    background-size: cover;
+    background-position: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #de0639;
+  }
+  main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:#f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .search-bar {
+    background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px; /* add some padding */
+  display: flex; /* use flexbox to align items horizontally */
+  align-items: center; /* vertically center the items */
+  }
+  
+  .search-history {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #search-input{
+    font-size: 24px; /* increase font size */
+    padding: 15px; /* add more padding */
+    width: 80%; /* take up 80% of the parent container's width */
+    height: 2px; /* increase height */
+    border-radius: 10px; /* add rounded corners */
+    border: 2px solid #ccc; /* add a thicker border */
+  }
+  button {
+    background-color: #e41151;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e41151;
+  }
+  #logoimg{
+    width: 400px;
+    top: 0px;
+  }
